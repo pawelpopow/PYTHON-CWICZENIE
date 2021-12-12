@@ -44,8 +44,8 @@ if __name__ == "__main__":
 
     # main()
 
-    osoba = Osoba(imie='Kazimierz', nazwisko='Nowak', wiek=20, telefon='604434233')
-    osoba2 = Osoba(imie='Asia', nazwisko='Jankowska', wiek=26, telefon='593645247')
+    osoba = Osoba(imie='Borys', nazwisko='Jerzewski', wiek=20, telefon='604434233')
+    osoba2 = Osoba(imie='Ania', nazwisko='Kaliwoska', wiek=26, telefon='593645247')
 
     osoba.przedstaw_sie()
     print(osoba)
