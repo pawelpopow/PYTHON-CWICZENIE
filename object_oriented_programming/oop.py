@@ -13,6 +13,8 @@ class Osoba:
         print(f"Moje imie to: {self.imie} moje nazwisko to: {self.nazwisko}  mam {self.wiek} lat")
         print(f"Mój numer telefonu: {self._telefon}")
 
+
+
     # def urodziny(self):
     #     wiek_przed = self.wiek
     #     self.wiek += 1
@@ -43,9 +45,10 @@ class Osoba:
 if __name__ == "__main__":
 
     # main()
+    osoba = Osoba(imie='Borys', nazwisko='Kozłowski', wiek=22, telefon='604434233')
+    osoba2 = Osoba(imie='Ala', nazwisko='Kot', wiek=20, telefon='593645247')
 
-    osoba = Osoba(imie='Borys', nazwisko='Jerzewski', wiek=20, telefon='604434233')
-    osoba2 = Osoba(imie='Ania', nazwisko='Kaliwoska', wiek=26, telefon='593645247')
+
 
     osoba.przedstaw_sie()
     print(osoba)
