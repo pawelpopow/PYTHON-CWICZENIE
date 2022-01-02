@@ -1,4 +1,4 @@
-class Osoba:
+class Osoby:
 
     def __init__(self, imie, nazwisko, wiek, telefon):
         self.imie = imie
@@ -41,27 +41,3 @@ class Osoba:
         #
         # Jan.przedstaw_sie()
 
-
-if __name__ == "__main__":
-
-    # main()
-    osoba = Osoba(imie='Borys', nazwisko='Kozłowski', wiek=22, telefon='604434233')
-    osoba2 = Osoba(imie='Ala', nazwisko='Kot', wiek=20, telefon='593645247')
-
-
-
-    osoba.przedstaw_sie()
-    print(osoba)
-
-    osoba2.przedstaw_sie()
-    print(osoba2)
-
-
-
-
-
-    # Jestem Jan Nowak. Mam 48 lat.
-    # Jestem Adam Mickiewicz. Mam 220 lat.
-    # Jestem Adam Mickiewicz. Mam 221 lat.
-    # Wiek Adama sprzed urodzin: 220
-    # Jestem Stanisław Witkiewicz. Mam 133 lat.

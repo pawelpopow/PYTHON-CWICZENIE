@@ -5,6 +5,3 @@ class People:
         self.password = password
 
 
-if __name__ == '__main__':
-    people = People(fullname='Jan', password='njdsnjsfjdiwj')
-
